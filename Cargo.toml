@@ -1,0 +1,10 @@
+[package]
+name = "iron_oxide"
+version = "0.0.1"
+authors = [
+    "Brian Seymour <imbrianseymour@gmail.com>",
+    "Shannon Warren <scoutman57@gmail.com>"
+]
+
+[dependencies]
+hyper = "0.5.0"
