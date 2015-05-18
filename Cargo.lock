@@ -3,6 +3,7 @@ name = "iron_oxide"
 version = "0.0.1"
 dependencies = [
  "hyper 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "log 0.3.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
