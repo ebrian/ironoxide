@@ -1,7 +1,5 @@
 extern crate hyper;
-
-#[macro_use]
-extern crate log;
+//extern crate math;
 
 use std::io::Write;
 
@@ -9,6 +7,9 @@ use hyper::Server;
 use hyper::server::Request;
 use hyper::server::Response;
 use hyper::net::Fresh;
+
+
+//use library::iron_oxide::math;
 
 fn main() {
     Server::http(bootstrap)
@@ -22,6 +23,9 @@ fn bootstrap(req: Request, res: Response<Fresh>) {
     println!("uri: {:?}", req.uri);
     println!("headers: {}", req.headers);
     println!("version: {}", req.version);
+
+    //let num: i32 = math.add(1,20);
+    //println!("{}", num);
 
     //for i in req.body {
     //    println!("{:?}", i);

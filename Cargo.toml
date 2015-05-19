@@ -6,6 +6,7 @@ authors = [
     "Shannon Warren <scoutman57@gmail.com>"
 ]
 
+
+
 [dependencies]
 hyper = "0.5.0"
-log = "0.3.1"
