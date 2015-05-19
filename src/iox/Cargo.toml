@@ -1,0 +1,6 @@
+[package]
+name = "iox"
+version = "0.0.1"
+
+[lib]
+name = "iox"

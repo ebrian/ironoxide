@@ -6,7 +6,8 @@ authors = [
     "Shannon Warren <scoutman57@gmail.com>"
 ]
 
-
-
 [dependencies]
 hyper = "0.5.0"
+
+[dependencies.iox]
+path = "src/iox"
