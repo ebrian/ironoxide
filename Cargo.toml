@@ -11,3 +11,6 @@ hyper = "0.5.0"
 
 [dependencies.iox]
 path = "src/iox"
+
+[dependencies.app]
+path = "src/app"
